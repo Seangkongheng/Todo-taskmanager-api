@@ -1,0 +1,219 @@
+.staff-content {
+    background-color: #f7f7f7;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-card-staff {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-staff {
+    width: 250px;
+    height: 330px;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card-staff:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.list-card-staff-cover {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+}
+
+.list-card-staff-cover-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.list-card-staff-cover-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.list-card-staff-profile {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    border: 4px solid white;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.list-card-staff-profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    overflow: hidden;
+}
+
+.list-card-staff-profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.list-card-staff-name {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.list-cad-staff-position {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.list-card-staff-view-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list-card-staff-view-task button {
+    background-color: #FF9F00;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.list-card-staff-view-task button:hover {
+    background-color: #ff7a00;
+}
+
+.list-card-staff-view-task button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .staff-content {
+        padding: 30px 50px;
+    }
+
+    .card-staff {
+        width: 220px;
+        height: 300px;
+    }
+
+    .list-card-staff-profile {
+        width: 100px;
+        height: 100px;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .list-card-staff-name {
+        font-size: 16px;
+    }
+}
+/* Container for the task detail page */
+.task-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f7fc;
+    min-height: 100vh;
+  }
+  
+  /* Card to contain task details */
+  .task-detail-card {
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin-top: -100px;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  /* Task title styling */
+  .task-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Task information (status, date) */
+  .task-info {
+    margin-bottom: 20px;
+  }
+  
+  .task-info p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .task-info strong {
+    color: #2a7f8e; /* Highlighting the label */
+  }
+  
+  /* Task description section */
+  .task-description {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .task-description h3 {
+    font-size: 1.4em;
+    color: #2a7f8e; /* Heading color */
+    margin-bottom: 10px;
+  }
+  
+  .task-description p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+  }
+  .staff-info{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    background-color: red;
+  }
+  .staff-info img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    background-color: red;
+  }

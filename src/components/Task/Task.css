@@ -1,0 +1,201 @@
+.task-content{
+    padding: 0 150px;
+}
+.task-container{
+    padding: 30px 0;
+    background-color: aliceblue;
+}
+.task-content-header-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.task-content-header-search input{
+    width: 850px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.task-content-header-button button{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: orange;
+    
+    border: none;
+}
+.task-content-header-button button:hover{
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.list-task-card{
+    padding: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+.task-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task-content-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .task-content-header-search input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .task-content-header-button button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .task-table .highlight {
+    color: #f39c12;
+  }
+  
+  .badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .high-priority {
+    background-color: #e74c3c;
+  }
+  
+  .medium-priority {
+    background-color: #f39c12;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  .avatar  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+/* Global styles for form */
+.custom-form {
+  margin: 0 auto; 
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  max-width: 600px; /* Optional: Set max width for better form layout */
+}
+
+/* Form labels */
+.custom-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.custom-form input, .custom-form select, .custom-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.custom-form input:focus, .custom-form select:focus, .custom-form textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Optionally, add some hover effect for the select field */
+.custom-form select:hover {
+  border-color: #3498db;
+}
+
+/* Optional: Style placeholders */
+.custom-form input::placeholder, .custom-form textarea::placeholder {
+  color: #999;
+}
+
+/* Style for submit button (optional) */
+.custom-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-form button:hover {
+  background-color: #2980b9;
+}
+
+/* Flexbox styling for the grouped form fields */
+.group-form {
+  display: flex;
+  justify-content: space-between;  /* Distribute space evenly between the items */
+  gap: 16px;  /* Add space between elements */
+  margin-bottom: 16px;
+}
+
+/* Style for individual form elements inside the group-form */
+.group-form label {
+  width: 100%;
+}
+
+.group-form select, .group-form input {
+  width: calc(50% - 8px);  /* Take up half of the space */
+}
+
+/* For textarea, keep it full-width */
+textarea {
+  width: 100%;
+}
+
+/* Responsive: Stack form fields on smaller screens */
+@media (max-width: 768px) {
+  .group-form {
+    flex-direction: column;
+  }
+
+  .group-form select, .group-form input {
+    width: 100%; /* Make inputs full-width on small screens */
+  }
+}

@@ -1,0 +1,48 @@
+
+.navbar-container{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(51, 51, 51);
+}
+.container-item{
+    color: white;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu-item ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    content: white;
+}
+
+.navbar-menu-item ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+.navbar-button button{
+    padding: 5px 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.navbar-icon ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+.profile-image{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+}
+.navbar-profile{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}

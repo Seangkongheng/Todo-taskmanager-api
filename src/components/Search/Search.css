@@ -1,0 +1,18 @@
+.serch-content-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.search-content{
+    padding-left: 150px;
+    padding-right: 150px ;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.form-serch input{
+    padding: 10px;
+    width: 1000px;
+    border: none;
+}

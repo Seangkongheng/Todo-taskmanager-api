@@ -1,0 +1,16 @@
+.category-container{
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.category-content{
+    padding-left: 150px;
+    padding-right: 150px ;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.category-content-list ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}

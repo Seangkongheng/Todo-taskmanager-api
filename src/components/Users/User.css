@@ -1,0 +1,144 @@
+.user-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 150px;
+}
+
+.user-content-list {
+    width: 500px ;
+    margin-top: 30px;
+    
+}
+
+.user-content-form {
+    width: 500px;
+    padding: 0;
+    background: none;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header styling */
+.styled-table thead {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.styled-table th {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table td {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+/* Hover effect for rows */
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button styling */
+.delete-btn {
+    padding: 6px 12px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #ff3333;
+}
+
+/* Form container */
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Grouping input and label */
+.group-input {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling labels */
+.group-input label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Input fields styling */
+.group-input input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect on input fields */
+.group-input input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Button styling */
+.group-input button {
+    padding: 12px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.group-input button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 480px) {
+    .user-content {
+        flex-direction: column; /* Stack the content vertically on small screens */
+        gap: 20px;
+    }
+
+    .form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .group-input input,
+    .group-input button {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,148 @@
+/* Background and container styles */
+.login-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(209, 255, 254, 1) 0%, rgba(237, 98, 252, 1) 42%, rgba(162, 0, 255, 1) 92%);
+    font-family: Arial, sans-serif;
+}
+
+/* Form styles */
+.login-content-form {
+    width: 400px;
+    padding: 30px 40px;
+    background-color: #ffffff; /* Neutral white for better contrast */
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for a modern look */
+}
+
+/* Profile picture container */
+.login-content-profile {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff; /* Soft blue for the profile container */
+    position: absolute;
+    top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fac-user-profile {
+    font-size: 50px;
+    color: #ffffff; /* White icon for contrast against blue */
+}
+
+/* Input styles */
+.login-content-form-input-icon-text {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background-color: #f9f9f9; /* Light gray for input background */
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+    border: 1px solid #ddd;
+}
+
+.login-content-input-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #6c757d; /* Neutral gray for the icon container */
+    color: #ffffff; /* White icons for contrast */
+    border-radius: 8px 0 0 8px;
+}
+
+.login-content-input-text input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333333; /* Dark gray for text */
+    background-color: transparent;
+    border-radius: 0 8px 8px 0;
+}
+
+/* Remember me and forgot password */
+.login-remember-forgot-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login-remember {
+    display: flex;
+    align-items: center;
+}
+
+.login-remember input {
+    margin-right: 5px;
+}
+
+.login-remember label {
+    font-size: 14px;
+    color: #555555; /* Neutral gray text */
+}
+
+.lgoin-forgot-password p {
+    font-size: 14px;
+    color: #007bff; /* Blue for clickable links */
+    cursor: pointer;
+    margin: 0;
+}
+
+.lgoin-forgot-password p:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles */
+.login {
+    margin-top: 50px; /* Reduced top margin for better spacing */
+}
+
+/* Responsive styles */
+@media (max-width: 500px) {
+    .login-content-form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .login-content-profile {
+        top: -40px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .fac-user-profile {
+        font-size: 40px;
+    }
+
+    .login-remember-forgot-password {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.btn-login{
+    padding: 20px 0px;
+    width: 100%;
+    background: #555555;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+.btn-login:hover{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background: #8b8b8b;
+}
